@@ -1,0 +1,9 @@
+.app-content {
+	margin-top: 64px !important;
+	height: calc(100% - 64px);
+}
+
+.app-content-wrapper {
+	height: 100%;
+	padding: 24px;
+}

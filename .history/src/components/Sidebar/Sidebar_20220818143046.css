@@ -1,0 +1,5 @@
+.side-bar {
+	overflow: auto;
+	height: 100vh;
+	position: absolute;
+}
