@@ -47,11 +47,6 @@ export const AppRoutes = [
 const AppRouter = () => {
 	const renderComponent = (item) => {
 		const protection = item.protect;
-		if (protection === false) {
-			if (item.children) {
-				return <AuthLayout>{item.component}</AuthLayout>;
-			}
-		}
 		return <>{item.component}</>;
 	};
 	return (
